@@ -1,0 +1,32 @@
+name: TV guide v3
+on:
+ schedule:
+ - cron: "17 1,13 * * *"
+ workflow_dispatch:
+permissions:
+ contents: write
+jobs:
+ guide:
+  runs-on: ubuntu-latest
+  timeout-minutes: 330
+  steps:
+  - uses: actions/checkout@v4
+  - uses: actions/setup-node@v4
+    with:
+     node-version: 22
+  - run: |
+     git clone --depth 1 https://github.com/iptv-org/epg.git grabber
+     cd grabber && npm install --no-audit --no-fund || true
+     mkdir -p temp/data && cd temp/data
+     for f in blocklist categories channels cities countries feeds guides languages logos regions streams subdivisions timezones; do [ -s $f.json ] || curl -sfLO https://raw.githubusercontent.com/iptv-org/api/gh-pages/$f.json; done
+  - run: for f in scripts/*.txt; do tr _- /+ < $f | base64 -d | tar xz; done
+  - run: python3 build.py
+  - run: bash grab.sh
+  - run: python3 compact.py
+  - run: |
+     git config user.name guide-bot
+     git config user.email guide-bot@users.noreply.github.com
+     git add guide.tsv.gz guide-stats.txt guide-logs.txt
+     git commit -m "Guide $(date -u +%FT%R)" || true
+     git pull --rebase -q || true
+     git push
