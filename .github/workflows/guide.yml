@@ -1,0 +1,57 @@
+name: Build TV guide
+
+on:
+  schedule:
+    - cron: "17 1,13 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  guide:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Get the iptv-org grabber
+        run: |
+          git clone --depth 1 -b master https://github.com/iptv-org/epg.git grabber
+          cd grabber && npm install --no-audit --no-fund
+
+      - name: Build the channel list
+        run: |
+          python3 - <<'PY'
+          import glob, json, re, urllib.request, html
+          def get(u):
+              return urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent": "qanawati"}), timeout=120).read().decode("utf-8", "ignore")
+          def items(text):
+              L = text.splitlines()
+              for i, l in enumerate(L):
+                  if l.startswith("#EXTINF"):
+                      g = re.search(r'group-title="([^"]*)"', l); t = re.search(r'tvg-id="([^"]*)"', l)
+                      yield (t.group(1) if t else ""), (g.group(1) if g else ""), l.rsplit(",", 1)[-1]
+          want = {}  # base id -> (lang, name)
+          for tid, grp, name in items(get("https://raw.githubusercontent.com/iptv-org/iptv/gh-pages/index.language.m3u")):
+              lang = {"Arabic": "ar", "English": "en"}.get(grp)
+              if not lang or not tid or (lang == "en" and "Geo-blocked" in name):
+                  continue
+              want.setdefault(tid.split("@")[0].lower(), (lang, re.sub(r"\s*[\(\[].*", "", name).strip()))
+          AR_G = "United Arab Emirates|Lebanon|Saudi Arabia|Iraq|Qatar|Egypt|News (AR)|Kuwait|Jordan|Bahrain|Oman|Sudan|Syria|Morocco|Algeria|Tunisia|Libya|Yemen|Palestine".split("|")
+          for tid, grp, name in items(get("https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8")):
+              if tid and grp in AR_G:
+                  want.setdefault(tid.split("@")[0].lower(), ("ar", re.sub(r"[ⓈⒼⓎⓉ]", "", name).strip()))
+          gm, es = {}, {}
+          def norm(s):
+              s = re.sub(r"\(.*?\)|\[.*?\]", "", s.lower())
+              s = re.sub(r"\b(tv|hd|sd|fhd|uhd|channel|television|live|the|al)\b", " ", s)
+              return re.sub(r"[^a-z0-9]", "", s)
+          for f in glob.glob("grabber/sites/*/*.channels.xml"):
+              site = f.split("/")[2]
+              for m in re.finditer(r"<channel\s+([^>]*)>([^<]*)</channel>", open(f, encoding="utf-8", errors="ignore").read()):
+                  a = di
