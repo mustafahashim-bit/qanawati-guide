@@ -1,0 +1,42 @@
+name: TV guide
+
+on:
+  schedule:
+    - cron: "17 1,13 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  guide:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Get the iptv-org grabber
+        run: |
+          git clone --depth 1 -b master https://github.com/iptv-org/epg.git grabber
+          cd grabber && npm install --no-audit --no-fund || true
+          mkdir -p temp/data
+          for f in blocklist categories channels cities countries feeds guides languages logos regions streams subdivisions timezones; do
+            [ -s temp/data/$f.json ] || curl -sfL -o temp/data/$f.json https://raw.githubusercontent.com/iptv-org/api/gh-pages/$f.json
+          done
+      - name: Unpack our scripts (build.py, grab.sh, compact.py)
+        run: echo "H4sIAAAAAAAAA+0Z7XLbxtG/+RQ3ZzECJOJIypKdKKZcNSMnTuw4lehOU5LVHIEjCAtfvjvww6Zm+rP90x/NO/Qp+jR+ku7eAfySnExm4rTNCDMkcIe93b3dvf3CsIjigOXzex/xasH18PDQ3OHavj86fPjoXvvo4OGjR63Dh62je612++Do0T3S+phMVVehNJeE3JNZpn8M7qfe/59eUZJnUpMwzoYN8lplaYNI0SCFjONoyKR4UwilG2Ssk7gWiBEJhXYK97hG4JJCFzLdgmUwzHKROlvT5/buFIBM8EBI1XlHXykhvdNQpJoeE/qGp3zKdUSv3QbRUSKyQnfaBy0XkPDAcVkg/CwQDi30yPuUNgiNwjSTgrqGtUiLRDlazHTJ33PSIThkKo8jHUepUI5r3owySaIGiUmUEpEWiZBcC+d5uQ6vaERihqah1TTSY4feP/tT99m3T+kaDF4h0JCCKcGlP3bkbiizIvc0kBMd6vT+Qgd7Lt0FUu7nRG/B6knoRcEW2Ab2eSTigDiaGbRO20W+NBGxEoRSkJITbrwK117FTJp9O7QBomq7Pa89qE15ily8uybkPhlygI0C4p0QJ+Zp2CApT4RbQ+noKGiQUOZ2DuVkxYv6p2Otc3XcbEo+ZSFIpxgWoEg/SzVokvlZ0oxyPfEyGZqHZjj2ch4K1YzSQMwY0ipgzJIHBXVLgeIkckZPJR9GPtoDl6jjszSMIzXGCZHSa4YcAGNWULDnNNN2MXCNz8A5PjoWYcesIjwNCP1SZN4wzvwrEVDckdntSp3If5QWwkygoEBTGgyLF7F2ACsrxfk76vZaAxZnUyEd1IGVHWq2GDqS9tVer+/0ewO2h/zTUqxgTTLKHdd1a6fnl1/CXumrFIQaENwxOUsiNEK1eC6GPM3SxQUvgsi8i/jimeRvFn/gYI+Ls3Ce68W3YqqIc3ruLr4ppjzSi68zGfB08Xs+ljxKFy8TGFwUOHUxl4DhRSYz388Wp3EocNwt0kjB/Xk0nPPF9yIR6eI7HsMRhXNCq70u6C9iDk+lEF73j81n38FfwpUWspnHfA6K1WgFny7NAO0bFIj6AnJICIW1UtLP0Ys1oKVeeu9/+Nv7f/77/Q//eP/D3wcfUE2YNIhQ5og04GccC/iYxFElg6o8xFbVDtt70ncX/R7eK5yq4sG9ZcXQ0ZPFOFioYDGCWwE/f8zTVMQLLWIxAaWA8uNoIhZ6LBY8dvtDxEsQsbvud1cb+wv33ra8z5b0rc5GKD107Az/HBqCKQ1B8ApUp5p7zT1WElZslsSVY8O3wPCokmoTpHowWHrNBJEC5REcZYCUQP5xiaav9sGTnYAnO4H7Y7g/bpavToArExRGIN0UnHiUhp2lGxdSZhAOlt68dPdrR5MDR0Hka6ekzOMY/KfTn+67G+4zWXpDd+VIeY+ilukAkGAcYwUEAp/nwqnAD9agwQC58TEUhKInl1Fww+Un6wYI2JeAgw+ZYm/gMp6DAAKHr0iJGIhZeaObykM15lK02ixLMVjRTbJCrZM1Nrnc2Q0S350/M84UTsAx6VFAPIaDkgx9lgqNZqK4ZnqCTyL2gVjC8aDiOFNp9SgzDSG5WsLj1/ytgFC5ej3nnp5UQz5PmX0CrQecJdwQSqUuH6ODwxTcVkX3xn4RhCWvxyx9SweNavPov3EPy1cfWjsCJzOJxBT4YcWVoX01r5ibFUlWEs7jQq+eIR7ZRz2BrRTKPoZFFIhqrZ7kXCnMk6oZ9F1CMiFWtPTk4HA1SuZwmOP5agLyGn/MpmPwsIAuLlSFKgAXKA07g+va2cXl6TkozqEXp+37Jvp9ae+nz78+/fPZ2Xk5/eobe++ew92tQaIEx15zrRomFqLL6Q0alRPDg4vBvrER5/EkK9iUCBzjVa1Hr44duG7EAsaOh8GuBhurnDS+XtlnLiOABaPrIf7BysJhNolSB6Eb5ErMOzFPhgEns2PiwCJmEgJnBhYK1MGOEfVyhAwiZpPTHLVc4hGnxY4MjD2iSI26eHxMtDeArfIw42AtuKNEZsaFzUzWpwwGc4yMNMzuTNq3njcguGWnPN+rjNDoyjWpBkqHwckrU0U0d9eEsA+tpU+N3tzButvB5MXfPPMbKUklUOMIffAvkFKKde8D75AT68bRGKw2YNqMzIat/kGW+6S9zLtUD9chII7M9BszMLpSx9Ztlk5T4ZYxzLwpMi06XVkIK3AwwsoD7RJSRQXj4Dq0rqhBbp8qnu2oFJEZnNTVKmrskjpx3jjCKtsYxa2H3wXtLcFKm0AmQYP2zbqUqpmlYqqJ0pWC+ZRFUQY262dxLHwNMVnVMgWaheQxkgrIwLlFZyFm8HCZXZWCGM5BcGuLWOmwjdJwjY3NyDaaIcjManw4762XBlZo64UBLHCX0W1QCdpMG4y4woIpRDycV+fZ4jfR1zLdrKvNyA9StqvplN6Mzy6bSnjr7D5+AsBkApUbbKxD26xF14BfdZ8C8JOTflppXsHzLtgZ7aeUvc7ADRjuXDu11DKCgQvD2pMFRZIbE1WNimMcMHxpvCiougYuIS3NQR3D7Dsw0BhgY9ccb1XWdaVrWwli2wF5uGjWa4PKr5dYK6YInlPIO0wgAFyF9AUSMyfJrf23y/Zf7MKkkKnxR6XxE/2fdvuovd3/aT04uuv//BoXpJRkX9TOX77sdnacfBq4teQKPBzxckJ3cLppjgC46XIYZ6GitWNyUk2Yg8j0TNOaj1WbqTJWFYiFok3rezaLjs9JkIF7UkAaI5CpLenOiJINKAwvKYCEUuTE88nuMrbsGmh8b4IrwARQQ5P9uqmUyhYS2Xl38ax7dtl99uLs5avusXfYSq5JmidEFqnhl3ieB7+KZsew4HmwNi90Z0MMzZ3SZ3pewOeqcwAPCZ99kcFK6/E7D2Gq6l4doIGvRIWyQwxwp+Tg5BMMwdjS6uw8qWEWBa87LXjqEW9Ebqc7IJ98UkKuSwRnJE8SsXv7OpSH8McZvFVkudGdlCwXwsigxYgGkkS2iBKQgQRIySFrsoVEzMibuC4lC6KFIB6/xRyCLBU1REdavx2P+du6oArJua8/6heAn/D/D/Ddlv8/enTX//9Vro3+f/g2yte/AqAXq5LhGVYAGkpsdhZjs1B34ZlwRc66tZHMEoLeAReQckE1rqXZFHJizK5wyPAPqszPyTiT0dsshXcIsU8ePCR78NdqmaabVthyq3pduLpCiN263GBRVeMOUsP69/WkHtS/qr+oX5D6W0hbEQSUm2Bjz6D0Y8FTB/LD9NZentpf9tlsibPsCzJwszH3hUP72sJsNOKUKRshmQTP+Bh2Y+tQ1TuGR4+0B0yWeDDzff/Xf9GazKZIG4KvY7P3nEO2uUpa17t21o3vWS9eMq7lfFUo4vpLyNtN1nvWxXRX5lwq4SDWreYVlu4x09yWuEvnv9VrukFj/eINMsQvK8oBTLYyw2BgqrCNySy3ddg22K1Y/XHDfCCpgMsYZVqa7of6alajsASbgvipx6Hm0wuWfZ+1bicEEhhCREabwxKdk8dLS8SxPzY3ffvejdZBeYwHgeMgzygN4PxWXkBxPrLS/rTl3rJtMfNFrsmZuUHqcDtJ7D3dXBozpCfL71nbmPBcio32jKmYriKoGgMQKRoGWAyUq3BCTLPbWKFcM0HcZWk7V9iRkiB48ApYLlU9oCvTssBiE7CsqOGod4XdBFkzVRS6FWbLOdtX02rCQtPIm+rbKk5kf2QRjsrqk94n1edBz9ZkkzapB1A6QvUKulx911vfBLLCJjwuhNroJy+x1lVfAxb7U+ZnMEq3VvXRTGEaZzxwblSkoFM0U/O5AOWzor9B+LoGEQZOe5E4bQPiI4hdWTacbHPGN60sbNpiayf9OWuw1WG+7l1u0ZrgOgte8YMIJmuUzLItcj+6zBAzeR6ssVJZZX1V+958j1z5sTWA6iNlzRTTpt1Z5OjdA1JX5FX3i366WYZj6QD2AXV+PSAONx8I8TEbwT/aj/lCuJxx++kqqz02VgIzwvZIjvtpHeqX5UmqE6cKKiMTVCCSePXEA2T1r47rL6gNgyxMysDVMK7eaAKeuWyQUuzISKMSpoVCMwAgs3cwlrUz4NmWHMrD9jVKiyz7C/bE/taaDXfX3XV33V131//M9R80GTb9ACgAAA==" | base64 -d | tar xz
+      - name: Build the channel lists
+        run: python3 build.py
+      - name: Grab two days of listings, one site at a time
+        run: bash grab.sh
+      - name: Make the compact file for the TV
+        run: python3 compact.py
+      - name: Publish
+        run: |
+          git config user.name "guide-bot"
+          git config user.email "guide-bot@users.noreply.github.com"
+          git add guide.tsv.gz guide-stats.txt
+          git commit -m "Guide $(date -u +%Y-%m-%dT%H:%M)" || echo "no change"
+          git push
