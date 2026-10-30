@@ -1,73 +1,74 @@
 errors by site
-r0-airtelxstream.in: 2x Request failed with status code 404
-r0-content.astro.com.my: 2x Request failed with status code 403
-r0-digiturk.com.tr: 6x Request failed with status code 403
+r0-chaines-tv.orange.fr: 10x socket hang up
 r0-distro.tv: 16x getaddrinfo ENOTFOUND tv.jsrdn.com
-r0-epgshare01.online: 26x Request failed with status code 404; 2x connect ETIMEDOUT 104.21.35.125:443; connect ENETUNREACH #:#:#::#:237d:443 - L
+r0-epgshare01.online: 26x Request failed with status code 404; 2x timeout of #ms exceeded
 r0-galamtv.kz: 2x Request failed with status code 404
-r0-i.mjh.nz: 34x Request failed with status code 404
-r0-m.tv.sms.cz: 16x write EPROTO C0EC8B#F#:error:0A#:SSL routines:tls12_check_peer_sigalg:wrong si
-r0-magticom.ge: 4x Request failed with status code 500
-r0-mncvision.id: 3x timeout of #ms exceeded
-r0-musor.tv: 10x Request failed with status code 403
-r0-playtv.unifi.com.my: 18x Request failed with status code 400
-r0-sat.tv: 111x Request failed with status code 403
+r0-i.mjh.nz: 24x Request failed with status code 404
+r0-m.tv.sms.cz: 2x write EPROTO 002D6CE2A#:error:0A#:SSL routines:tls12_check_peer_sigalg:wrong si
+r0-magticom.ge: 8x Request failed with status code 500
+r0-musor.tv: 8x Request failed with status code 403
+r0-programacion.tcc.com.uy: 3x timeout of #ms exceeded
+r0-sat.tv: 110x Request failed with status code 403
+r0-tataplay.com: 36x Request failed with status code 429
 r0-tv.magenta.at: 2x Request failed with status code 403
-r0-tv.mail.ru: 2x Request failed with status code 404
-r0-tvprofil.com: 2x Request failed with status code 403
+r0-tv.mail.ru: 4x Request failed with status code 404
+r0-tvplus.com.tr: 4x Cannot read properties of undefined (reading 'headers')
+r0-tvprofil.com: 20x Request failed with status code 403
 r0-tvtv.us: 104x Request failed with status code 404
-r0-watch.whaletvplus.com: 22x Request failed with status code 429
+r0-watch.whaletvplus.com: 21x Request failed with status code 429
 r0-wavve.com: 2x Client network socket disconnected before secure TLS connection was established
-r1-chaines-tv.orange.fr: 4x socket hang up
-r1-distro.tv: 12x getaddrinfo ENOTFOUND tv.jsrdn.com
-r1-epgshare01.online: 26x Request failed with status code 404
-r1-mncvision.id: 4x timeout of #ms exceeded
+r1-chaines-tv.orange.fr: 2x socket hang up
+r1-dishtv.in: 1x Cannot read properties of null (reading 'token')
+r1-distro.tv: 10x getaddrinfo ENOTFOUND tv.jsrdn.com
+r1-epgshare01.online: 32x Request failed with status code 404
+r1-m.tv.sms.cz: 4x write EPROTO 00DD6D1B#:error:0A#:SSL routines:tls12_check_peer_sigalg:wrong si
+r1-magticom.ge: 2x Request failed with status code 500
 r1-musor.tv: 4x Request failed with status code 403
+r1-nzxmltv.com: 2x read ECONNRESET
 r1-plex.tv: 4x Request failed with status code 404
 r1-pluto.tv: 6x Request failed with status code 404
-r1-sat.tv: 14x Request failed with status code 403
+r1-sat.tv: 12x Request failed with status code 403
 r1-snrt.ma: 4x Request failed with status code 403
-r1-tv.mail.ru: 2x Request failed with status code 404
-r1-tvhebdo.com: 2x timeout of #ms exceeded
+r1-teleboy.ch: 2x Request failed with status code 403
+r1-turksatkablo.com.tr: 2x unable to verify the first certificate
 r1-tvireland.ie: 2x Request failed with status code 404
-r1-tvmusor.hu: 4x Request failed with status code 404
-r1-tvplus.com.tr: 3x Cannot read properties of undefined (reading 'headers')
-r1-tvtv.us: 6x Request failed with status code 404
-r2-chaines-tv.orange.fr: 8x socket hang up; 2x read ECONNRESET
+r1-tvprofil.com: 2x Request failed with status code 403
+r1-tvtv.us: 4x Request failed with status code 404
+r2-chaines-tv.orange.fr: 7x socket hang up; 1x read ECONNRESET
 r2-distro.tv: 14x getaddrinfo ENOTFOUND tv.jsrdn.com
-r2-epgshare01.online: 2x Request failed with status code 404
-r2-mncvision.id: 2x timeout of #ms exceeded
-r2-tvmusor.hu: 2x Request failed with status code 404
-r2-tvprofil.com: 4x Request failed with status code 403
+r2-epgshare01.online: 4x Request failed with status code 404
+r2-pluto.tv: 2x Request failed with status code 404
+r2-sat.tv: 2x Request failed with status code 403
+r2-tvmusor.hu: 6x Request failed with status code 404
 r2-tvtv.us: 12x Request failed with status code 404
 r2-vidio.com: 2x Request failed with status code 404
 r2-watch.whaletvplus.com: 4x Request failed with status code 429
 r3-chaines-tv.orange.fr: 1x socket hang up; 1x read ECONNRESET
 r3-distro.tv: 4x getaddrinfo ENOTFOUND tv.jsrdn.com
 r3-epgshare01.online: 4x Request failed with status code 404
-r3-teleboy.ch: 4x Request failed with status code 403
+r3-teleboy.ch: 2x Request failed with status code 403
 r3-tvtv.us: 14x Request failed with status code 404
 
-== r0 digiturk.com.tr (3 channels)
-[info]   [2/6] digiturk.com.tr (tr) - en:fbtv.tr - Oct 30, 2026 (0 programs)
-[info]     ERR: Request failed with status code 403
-[info]   [3/6] digiturk.com.tr (tr) - en:minikago.tr - Oct 30, 2026 (0 programs)
-[info]     ERR: Request failed with status code 403
-[info]   [4/6] digiturk.com.tr (tr) - ar:trtarabi.tr - Oct 31, 2026 (0 programs)
-[info]     ERR: Request failed with status code 403
-[info]   [5/6] digiturk.com.tr (tr) - en:fbtv.tr - Oct 31, 2026 (0 programs)
-[info]     ERR: Request failed with status code 403
-[info]   [6/6] digiturk.com.tr (tr) - en:minikago.tr - Oct 31, 2026 (0 programs)
-[info]     ERR: Request failed with status code 403
-[info]   saving to "/home/runner/work/qanawati-guide/qanawati-guide/guides/r0-digiturk.com.tr.xml"...
-[success]   done in 00h 00m 00s
+== r0 chaines-tv.orange.fr (5 channels)
+[info]   [6/10] chaines-tv.orange.fr (fr) - en:iqraaafricaeurope.sa - Oct 31, 2026 (0 programs)
+[info]     ERR: socket hang up
+[info]   [7/10] chaines-tv.orange.fr (en) - en:luxetv.lu - Oct 31, 2026 (0 programs)
+[info]     ERR: socket hang up
+[info]   [8/10] chaines-tv.orange.fr (en) - en:luxetv.lu - Oct 30, 2026 (0 programs)
+[info]     ERR: socket hang up
+[info]   [9/10] chaines-tv.orange.fr (fr) - en:tv2.dz - Oct 30, 2026 (0 programs)
+[info]     ERR: socket hang up
+[info]   [10/10] chaines-tv.orange.fr (fr) - en:tv2.dz - Oct 31, 2026 (0 programs)
+[info]     ERR: socket hang up
+[info]   saving to "/home/runner/work/qanawati-guide/qanawati-guide/guides/r0-chaines-tv.orange.fr.xml"...
+[success]   done in 00h 00m 01s
 
 == r0 distro.tv (8 channels)
 [info]   [12/16] distro.tv (en) - en:rvtv.us - Oct 31, 2026 (0 programs)
 [info]     ERR: getaddrinfo ENOTFOUND tv.jsrdn.com
-[info]   [13/16] distro.tv (en) - en:schwabnetwork.us - Oct 30, 2026 (0 programs)
+[info]   [13/16] distro.tv (en) - en:schwabnetwork.us - Oct 31, 2026 (0 programs)
 [info]     ERR: getaddrinfo ENOTFOUND tv.jsrdn.com
-[info]   [14/16] distro.tv (en) - en:schwabnetwork.us - Oct 31, 2026 (0 programs)
+[info]   [14/16] distro.tv (en) - en:schwabnetwork.us - Oct 30, 2026 (0 programs)
 [info]     ERR: getaddrinfo ENOTFOUND tv.jsrdn.com
 [info]   [15/16] distro.tv (en) - en:winewatcheswhiskey.us - Oct 30, 2026 (0 programs)
 [info]     ERR: getaddrinfo ENOTFOUND tv.jsrdn.com
@@ -90,60 +91,46 @@ r3-tvtv.us: 14x Request failed with status code 404
 [info]   saving to "/home/runner/work/qanawati-guide/qanawati-guide/guides/r0-galamtv.kz.xml"...
 [success]   done in 00h 00m 00s
 
-== r0 m.tv.sms.cz (8 channels)
-
-[info]   [14/16] m.tv.sms.cz (cs) - en:superyachttv.mc - Oct 30, 2026 (0 programs)
-[info]     ERR: write EPROTO C0EC8B78377F0000:error:0A000172:SSL routines:tls12_check_peer_sigalg:wrong signature type:../deps/openssl/openssl/ssl/t1_lib.c:2698:
-
-[info]   [15/16] m.tv.sms.cz (cs) - en:viasat2.hu - Oct 31, 2026 (0 programs)
-[info]     ERR: write EPROTO C0EC8B78377F0000:error:0A000172:SSL routines:tls12_check_peer_sigalg:wrong signature type:../deps/openssl/openssl/ssl/t1_lib.c:2698:
-
-[info]   [16/16] m.tv.sms.cz (cs) - en:viasat2.hu - Oct 30, 2026 (0 programs)
-[info]     ERR: write EPROTO C0EC8B78377F0000:error:0A000172:SSL routines:tls12_check_peer_sigalg:wrong signature type:../deps/openssl/openssl/ssl/t1_lib.c:2698:
-
-[info]   saving to "/home/runner/work/qanawati-guide/qanawati-guide/guides/r0-m.tv.sms.cz.xml"...
-[success]   done in 00h 00m 02s
-
-== r0 magticom.ge (2 channels)
+== r0 m.tv.sms.cz (1 channels)
+[info] found 1 channel(s)
+[info] loading api data...
 [info] creating queue...
 [info] run:
-[info]   [1/4] magticom.ge (ru) - en:a1.ru - Oct 30, 2026 (0 programs)
+[info]   [1/2] m.tv.sms.cz (en) - en:rtgtv.ru - Oct 31, 2026 (0 programs)
+[info]     ERR: write EPROTO 002D6CE2A1700000:error:0A000172:SSL routines:tls12_check_peer_sigalg:wrong signature type:../deps/openssl/openssl/ssl/t1_lib.c:2698:
+
+[info]   [2/2] m.tv.sms.cz (en) - en:rtgtv.ru - Oct 30, 2026 (0 programs)
+[info]     ERR: write EPROTO 002D6CE2A1700000:error:0A000172:SSL routines:tls12_check_peer_sigalg:wrong signature type:../deps/openssl/openssl/ssl/t1_lib.c:2698:
+
+[info]   saving to "/home/runner/work/qanawati-guide/qanawati-guide/guides/r0-m.tv.sms.cz.xml"...
+[success]   done in 00h 00m 00s
+
+== r0 magticom.ge (4 channels)
+[info]   [4/8] magticom.ge (ru) - en:a1.ru - Oct 30, 2026 (0 programs)
 [info]     ERR: Request failed with status code 500
-[info]   [2/4] magticom.ge (ru) - en:a1.ru - Oct 31, 2026 (0 programs)
+[info]   [5/8] magticom.ge (ka) - en:mtavariarkhi.ge - Oct 31, 2026 (0 programs)
 [info]     ERR: Request failed with status code 500
-[info]   [3/4] magticom.ge (ka) - en:mtavariarkhi.ge - Oct 31, 2026 (0 programs)
+[info]   [6/8] magticom.ge (en) - en:fashionbox.nl - Oct 30, 2026 (0 programs)
 [info]     ERR: Request failed with status code 500
-[info]   [4/4] magticom.ge (ka) - en:mtavariarkhi.ge - Oct 30, 2026 (0 programs)
+[info]   [7/8] magticom.ge (ka) - en:mtavariarkhi.ge - Oct 30, 2026 (0 programs)
+[info]     ERR: Request failed with status code 500
+[info]   [8/8] magticom.ge (en) - en:fashionbox.nl - Oct 31, 2026 (0 programs)
 [info]     ERR: Request failed with status code 500
 [info]   saving to "/home/runner/work/qanawati-guide/qanawati-guide/guides/r0-magticom.ge.xml"...
 [success]   done in 00h 00m 01s
 
-== r0 musor.tv (5 channels)
-[info]   [6/10] musor.tv (hu) - en:jimjam.hu - Oct 30, 2026 (0 programs)
+== r0 musor.tv (4 channels)
+[info]   [4/8] musor.tv (hu) - en:viasat2.hu - Oct 31, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-[info]   [7/10] musor.tv (hu) - en:viasat6.hu - Oct 30, 2026 (0 programs)
+[info]   [5/8] musor.tv (hu) - en:nicktoons.ro - Oct 30, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-[info]   [8/10] musor.tv (hu) - en:viasat6.hu - Oct 31, 2026 (0 programs)
+[info]   [6/8] musor.tv (hu) - en:nicktoons.ro - Oct 31, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-[info]   [9/10] musor.tv (hu) - en:tlc.hu - Oct 31, 2026 (0 programs)
+[info]   [7/8] musor.tv (hu) - en:tlc.hu - Oct 31, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-[info]   [10/10] musor.tv (hu) - en:tlc.hu - Oct 30, 2026 (0 programs)
+[info]   [8/8] musor.tv (hu) - en:tlc.hu - Oct 30, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
 [info]   saving to "/home/runner/work/qanawati-guide/qanawati-guide/guides/r0-musor.tv.xml"...
-[success]   done in 00h 00m 02s
-
-== r0 playtv.unifi.com.my (9 channels)
-[info]   [14/18] playtv.unifi.com.my (my) - en:tv1.my - Oct 30, 2026 (0 programs)
-[info]     ERR: Request failed with status code 400
-[info]   [15/18] playtv.unifi.com.my (my) - en:tv1.my - Oct 31, 2026 (0 programs)
-[info]     ERR: Request failed with status code 400
-[info]   [16/18] playtv.unifi.com.my (my) - en:tv2.my - Oct 30, 2026 (0 programs)
-[info]     ERR: Request failed with status code 400
-[info]   [17/18] playtv.unifi.com.my (en) - en:cinemaworld.my - Oct 30, 2026 (0 programs)
-[info]     ERR: Request failed with status code 400
-[info]   [18/18] playtv.unifi.com.my (my) - en:tv2.my - Oct 31, 2026 (0 programs)
-[info]     ERR: Request failed with status code 400
-[info]   saving to "/home/runner/work/qanawati-guide/qanawati-guide/guides/r0-playtv.unifi.com.my.xml"...
 [success]   done in 00h 00m 01s
 
 == r0 rotana.net (1 channels)
@@ -160,19 +147,19 @@ r3-tvtv.us: 14x Request failed with status code 404
 [info]   saving to "/home/runner/work/qanawati-guide/qanawati-guide/guides/r0-rotana.net.xml"...
 [success]   done in 00h 00m 06s
 
-== r0 sat.tv (69 channels)
-[info]   [134/138] sat.tv (ar) - en:ktv2.kw - Oct 31, 2026 (0 programs)
+== r0 sat.tv (68 channels)
+[info]   [132/136] sat.tv (en) - en:bahraininternational.bh - Oct 31, 2026 (0 programs)
+[info]   [132/136] sat.tv (en) - en:bahraininternational.bh - Oct 31, 2026 (0 programs)
+[info]   [133/136] sat.tv (ar) - en:ktv2.kw - Oct 30, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-[info]   [135/138] sat.tv (en) - en:presstv.ir - Oct 30, 2026 (0 programs)
+[info]   [134/136] sat.tv (ar) - en:ktv2.kw - Oct 31, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-[info]   [136/138] sat.tv (en) - en:presstv.ir - Oct 31, 2026 (0 programs)
+[info]   [135/136] sat.tv (en) - en:presstv.ir - Oct 30, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-[info]   [137/138] sat.tv (ar) - en:tv2.dz - Oct 30, 2026 (0 programs)
-[info]   [137/138] sat.tv (ar) - en:tv2.dz - Oct 30, 2026 (0 programs)
-[info]   [138/138] sat.tv (ar) - en:tv2.dz - Oct 31, 2026 (0 programs)
+[info]   [136/136] sat.tv (en) - en:presstv.ir - Oct 31, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
 [info]   saving to "/home/runner/work/qanawati-guide/qanawati-guide/guides/r0-sat.tv.xml"...
-[success]   done in 00h 06m 57s
+[success]   done in 00h 06m 51s
 
 == r0 taiwanplus.com (1 channels)
 > node -r @swc-node/register scripts/commands/epg/grab.ts --channels=/home/runner/work/qanawati-guide/qanawati-guide/lists0/taiwanplus.com.channels.xml --output=/home/runner/work/qanawati-guide/qanawati-guide/guides/r0-taiwanplus.com.xml --
@@ -195,10 +182,10 @@ r3-tvtv.us: 14x Request failed with status code 404
 [info] loading api data...
 [info] creating queue...
 [info] run:
-[info]   [1/4] tapdmv.com (en) - en:premiersports2.ph - Oct 31, 2026 (0 programs)
-[info]   [2/4] tapdmv.com (en) - en:premiersports.ph - Oct 31, 2026 (0 programs)
+[info]   [1/4] tapdmv.com (en) - en:premiersports2.ph - Oct 30, 2026 (0 programs)
+[info]   [2/4] tapdmv.com (en) - en:premiersports2.ph - Oct 31, 2026 (0 programs)
 [info]   [3/4] tapdmv.com (en) - en:premiersports.ph - Oct 30, 2026 (0 programs)
-[info]   [4/4] tapdmv.com (en) - en:premiersports2.ph - Oct 30, 2026 (0 programs)
+[info]   [4/4] tapdmv.com (en) - en:premiersports.ph - Oct 31, 2026 (0 programs)
 [info]   saving to "/home/runner/work/qanawati-guide/qanawati-guide/guides/r0-tapdmv.com.xml"...
 [success]   done in 00h 00m 02s
 
@@ -211,10 +198,10 @@ r3-tvtv.us: 14x Request failed with status code 404
 [info] loading api data...
 [info] creating queue...
 [info] run:
-[info]   [1/2] tivie.id (id) - en:warnertvasia.us - Oct 31, 2026 (0 programs)
-[info]   [2/2] tivie.id (id) - en:warnertvasia.us - Oct 30, 2026 (0 programs)
+[info]   [1/2] tivie.id (id) - en:warnertvasia.us - Oct 30, 2026 (0 programs)
+[info]   [2/2] tivie.id (id) - en:warnertvasia.us - Oct 31, 2026 (0 programs)
 [info]   saving to "/home/runner/work/qanawati-guide/qanawati-guide/guides/r0-tivie.id.xml"...
-[success]   done in 00h 00m 04s
+[success]   done in 00h 00m 01s
 
 == r0 tv.magenta.at (1 channels)
 [info] starting...
@@ -230,58 +217,44 @@ r3-tvtv.us: 14x Request failed with status code 404
 [info]   saving to "/home/runner/work/qanawati-guide/qanawati-guide/guides/r0-tv.magenta.at.xml"...
 [success]   done in 00h 00m 00s
 
-== r0 tv.mail.ru (1 channels)
-      [Symbol(kUniqueHeaders)]: null
-    },
-    data: ''
-  },
+== r0 tv.mail.ru (2 channels)
   status: 404
 }
-[info]   [1/2] tv.mail.ru (ru) - en:angeltv.in - Oct 31, 2026 (0 programs)
+[info]   [1/4] tv.mail.ru (ru) - en:angeltv.in - Oct 31, 2026 (0 programs)
 [info]     ERR: Request failed with status code 404
-[info]   [2/2] tv.mail.ru (ru) - en:angeltv.in - Oct 30, 2026 (0 programs)
+[info]   [2/4] tv.mail.ru (ru) - en:belarus24.by - Oct 31, 2026 (0 programs)
+[info]     ERR: Request failed with status code 404
+[info]   [3/4] tv.mail.ru (ru) - en:angeltv.in - Oct 30, 2026 (0 programs)
+[info]     ERR: Request failed with status code 404
+[info]   [4/4] tv.mail.ru (ru) - en:belarus24.by - Oct 30, 2026 (0 programs)
 [info]     ERR: Request failed with status code 404
 [info]   saving to "/home/runner/work/qanawati-guide/qanawati-guide/guides/r0-tv.mail.ru.xml"...
-[success]   done in 00h 00m 01s
-
-== r0 tvcesoir.fr (1 channels)
-> node -r @swc-node/register scripts/commands/epg/grab.ts --channels=/home/runner/work/qanawati-guide/qanawati-guide/lists0/tvcesoir.fr.channels.xml --output=/home/runner/work/qanawati-guide/qanawati-guide/guides/r0-tvcesoir.fr.xml --days=2
-
-[info] starting...
-[info] loading channels...
-[info] found 1 channel(s)
-[info] loading api data...
-[info] creating queue...
-[info] run:
-[info]   [1/2] tvcesoir.fr (fr) - en:tfx.fr - Oct 31, 2026 (0 programs)
-[info]   [2/2] tvcesoir.fr (fr) - en:tfx.fr - Oct 30, 2026 (0 programs)
-[info]   saving to "/home/runner/work/qanawati-guide/qanawati-guide/guides/r0-tvcesoir.fr.xml"...
 [success]   done in 00h 00m 00s
 
-== r0 tvprofil.com (1 channels)
-[info] starting...
-[info] loading channels...
-[info] found 1 channel(s)
-[info] loading api data...
-[info] creating queue...
-[info] run:
-[info]   [1/2] tvprofil.com (hr) - en:axnadria.us - Oct 31, 2026 (0 programs)
+== r0 tvprofil.com (10 channels)
+[info]   [16/20] tvprofil.com (hr) - en:viasat6.hu - Oct 30, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-[info]   [2/2] tvprofil.com (hr) - en:axnadria.us - Oct 30, 2026 (0 programs)
+[info]   [17/20] tvprofil.com (bg) - en:nationalgeographic.bg - Oct 31, 2026 (0 programs)
+[info]     ERR: Request failed with status code 403
+[info]   [18/20] tvprofil.com (hr) - en:sorozatplus.hu - Oct 30, 2026 (0 programs)
+[info]     ERR: Request failed with status code 403
+[info]   [19/20] tvprofil.com (hr) - en:viasat6.hu - Oct 31, 2026 (0 programs)
+[info]     ERR: Request failed with status code 403
+[info]   [20/20] tvprofil.com (hr) - en:viasat3.hu - Oct 31, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
 [info]   saving to "/home/runner/work/qanawati-guide/qanawati-guide/guides/r0-tvprofil.com.xml"...
 [success]   done in 00h 00m 00s
 
 == r0 tvtv.us (52 channels)
-[info]   [100/104] tvtv.us (en) - en:willow.us - Oct 31, 2026 (0 programs)
+[info]   [100/104] tvtv.us (en) - en:willow.us - Oct 30, 2026 (0 programs)
 [info]     ERR: Request failed with status code 404
-[info]   [101/104] tvtv.us (en) - en:telehit.mx - Oct 30, 2026 (0 programs)
+[info]   [101/104] tvtv.us (en) - en:willow.us - Oct 31, 2026 (0 programs)
 [info]     ERR: Request failed with status code 404
-[info]   [102/104] tvtv.us (en) - en:worldharvesttv.us - Oct 30, 2026 (0 programs)
+[info]   [102/104] tvtv.us (en) - en:worldharvesttv.us - Oct 31, 2026 (0 programs)
 [info]     ERR: Request failed with status code 404
-[info]   [103/104] tvtv.us (en) - en:thecountrynetwork.us - Oct 31, 2026 (0 programs)
+[info]   [103/104] tvtv.us (en) - en:worldharvesttv.us - Oct 30, 2026 (0 programs)
 [info]     ERR: Request failed with status code 404
-[info]   [104/104] tvtv.us (en) - en:worldharvesttv.us - Oct 31, 2026 (0 programs)
+[info]   [104/104] tvtv.us (en) - en:vsin.us - Oct 30, 2026 (0 programs)
 [info]     ERR: Request failed with status code 404
 [info]   saving to "/home/runner/work/qanawati-guide/qanawati-guide/guides/r0-tvtv.us.xml"...
 [success]   done in 00h 00m 00s
@@ -293,9 +266,9 @@ r3-tvtv.us: 14x Request failed with status code 404
 [info] loading api data...
 [info] creating queue...
 [info] run:
-[info]   [1/2] wavve.com (ko) - en:gsshop.kr - Oct 31, 2026 (0 programs)
+[info]   [1/2] wavve.com (ko) - en:gsshop.kr - Oct 30, 2026 (0 programs)
 [info]     ERR: Client network socket disconnected before secure TLS connection was established
-[info]   [2/2] wavve.com (ko) - en:gsshop.kr - Oct 30, 2026 (0 programs)
+[info]   [2/2] wavve.com (ko) - en:gsshop.kr - Oct 31, 2026 (0 programs)
 [info]     ERR: Client network socket disconnected before secure TLS connection was established
 [info]   saving to "/home/runner/work/qanawati-guide/qanawati-guide/guides/r0-wavve.com.xml"...
 [success]   done in 00h 00m 00s
@@ -314,30 +287,30 @@ r3-tvtv.us: 14x Request failed with status code 404
 [info]   saving to "/home/runner/work/qanawati-guide/qanawati-guide/guides/r1-chada.ma.xml"...
 [success]   done in 00h 00m 01s
 
-== r1 chaines-tv.orange.fr (2 channels)
+== r1 chaines-tv.orange.fr (1 channels)
+[info] starting...
+[info] loading channels...
+[info] found 1 channel(s)
+[info] loading api data...
 [info] creating queue...
 [info] run:
-[info]   [1/4] chaines-tv.orange.fr (fr) - ar:iqraaafricaeurope.sa - Oct 31, 2026 (0 programs)
+[info]   [1/2] chaines-tv.orange.fr (fr) - ar:iqraaafricaeurope.sa - Oct 30, 2026 (0 programs)
 [info]     ERR: socket hang up
-[info]   [2/4] chaines-tv.orange.fr (fr) - ar:iqraaafricaeurope.sa - Oct 30, 2026 (0 programs)
-[info]     ERR: socket hang up
-[info]   [3/4] chaines-tv.orange.fr (fr) - en:iqraaafricaeurope.sa - Oct 31, 2026 (0 programs)
-[info]     ERR: socket hang up
-[info]   [4/4] chaines-tv.orange.fr (fr) - en:iqraaafricaeurope.sa - Oct 30, 2026 (0 programs)
+[info]   [2/2] chaines-tv.orange.fr (fr) - ar:iqraaafricaeurope.sa - Oct 31, 2026 (0 programs)
 [info]     ERR: socket hang up
 [info]   saving to "/home/runner/work/qanawati-guide/qanawati-guide/guides/r1-chaines-tv.orange.fr.xml"...
-[success]   done in 00h 00m 01s
+[success]   done in 00h 00m 00s
 
-== r1 distro.tv (6 channels)
-[info]   [8/12] distro.tv (en) - en:discoveringchina.cn - Oct 31, 2026 (0 programs)
+== r1 distro.tv (5 channels)
+[info]   [6/10] distro.tv (en) - en:discoveringchina.cn - Oct 30, 2026 (0 programs)
 [info]     ERR: getaddrinfo ENOTFOUND tv.jsrdn.com
-[info]   [9/12] distro.tv (en) - en:jewishlifetelevision.us - Oct 31, 2026 (0 programs)
+[info]   [7/10] distro.tv (en) - en:jewishlifetelevision.us - Oct 30, 2026 (0 programs)
 [info]     ERR: getaddrinfo ENOTFOUND tv.jsrdn.com
-[info]   [10/12] distro.tv (en) - en:jewishlifetelevision.us - Oct 30, 2026 (0 programs)
+[info]   [8/10] distro.tv (en) - en:jewishlifetelevision.us - Oct 31, 2026 (0 programs)
 [info]     ERR: getaddrinfo ENOTFOUND tv.jsrdn.com
-[info]   [11/12] distro.tv (en) - en:stingrayrockalternative.ca - Oct 31, 2026 (0 programs)
+[info]   [9/10] distro.tv (en) - en:stingrayrockalternative.ca - Oct 31, 2026 (0 programs)
 [info]     ERR: getaddrinfo ENOTFOUND tv.jsrdn.com
-[info]   [12/12] distro.tv (en) - en:stingrayrockalternative.ca - Oct 30, 2026 (0 programs)
+[info]   [10/10] distro.tv (en) - en:stingrayrockalternative.ca - Oct 30, 2026 (0 programs)
 [info]     ERR: getaddrinfo ENOTFOUND tv.jsrdn.com
 [info]   saving to "/home/runner/work/qanawati-guide/qanawati-guide/guides/r1-distro.tv.xml"...
 [success]   done in 00h 00m 00s
@@ -351,35 +324,49 @@ r3-tvtv.us: 14x Request failed with status code 404
 [info] loading api data...
 [info] creating queue...
 [info] run:
-[info]   [1/2] ionplustv.com (en) - en:ionplus.us - Oct 31, 2026 (0 programs)
-[info]   [2/2] ionplustv.com (en) - en:ionplus.us - Oct 30, 2026 (0 programs)
+[info]   [1/2] ionplustv.com (en) - en:ionplus.us - Oct 30, 2026 (0 programs)
+[info]   [2/2] ionplustv.com (en) - en:ionplus.us - Oct 31, 2026 (0 programs)
 [info]   saving to "/home/runner/work/qanawati-guide/qanawati-guide/guides/r1-ionplustv.com.xml"...
 [success]   done in 00h 00m 00s
 
-== r1 mncvision.id (2 channels)
+== r1 m.tv.sms.cz (2 channels)
+
+[info]   [2/4] m.tv.sms.cz (pl) - en:belarus24.by - Oct 30, 2026 (0 programs)
+[info]     ERR: write EPROTO 00DD6D1B18770000:error:0A000172:SSL routines:tls12_check_peer_sigalg:wrong signature type:../deps/openssl/openssl/ssl/t1_lib.c:2698:
+
+[info]   [3/4] m.tv.sms.cz (cs) - en:viasat2.hu - Oct 30, 2026 (0 programs)
+[info]     ERR: write EPROTO 00DD6D1B18770000:error:0A000172:SSL routines:tls12_check_peer_sigalg:wrong signature type:../deps/openssl/openssl/ssl/t1_lib.c:2698:
+
+[info]   [4/4] m.tv.sms.cz (cs) - en:viasat2.hu - Oct 31, 2026 (0 programs)
+[info]     ERR: write EPROTO 00DD6D1B18770000:error:0A000172:SSL routines:tls12_check_peer_sigalg:wrong signature type:../deps/openssl/openssl/ssl/t1_lib.c:2698:
+
+[info]   saving to "/home/runner/work/qanawati-guide/qanawati-guide/guides/r1-m.tv.sms.cz.xml"...
+[success]   done in 00h 00m 00s
+
+== r1 magticom.ge (1 channels)
+[info] starting...
+[info] loading channels...
+[info] found 1 channel(s)
+[info] loading api data...
 [info] creating queue...
 [info] run:
-[info]   [1/4] mncvision.id (en) - en:dreamworkschannelasia.us - Oct 31, 2026 (0 programs)
-[info]     ERR: timeout of 20000ms exceeded
-[info]   [2/4] mncvision.id (en) - en:animaxasia.sg - Oct 31, 2026 (0 programs)
-[info]     ERR: timeout of 20000ms exceeded
-[info]   [3/4] mncvision.id (en) - en:animaxasia.sg - Oct 30, 2026 (0 programs)
-[info]     ERR: timeout of 20000ms exceeded
-[info]   [4/4] mncvision.id (en) - en:dreamworkschannelasia.us - Oct 30, 2026 (0 programs)
-[info]     ERR: timeout of 20000ms exceeded
-[info]   saving to "/home/runner/work/qanawati-guide/qanawati-guide/guides/r1-mncvision.id.xml"...
-[success]   done in 00h 00m 40s
+[info]   [1/2] magticom.ge (en) - en:rt.ru - Oct 31, 2026 (0 programs)
+[info]     ERR: Request failed with status code 500
+[info]   [2/2] magticom.ge (en) - en:rt.ru - Oct 30, 2026 (0 programs)
+[info]     ERR: Request failed with status code 500
+[info]   saving to "/home/runner/work/qanawati-guide/qanawati-guide/guides/r1-magticom.ge.xml"...
+[success]   done in 00h 00m 00s
 
 == r1 musor.tv (2 channels)
 [info] creating queue...
 [info] run:
-[info]   [1/4] musor.tv (en) - en:mtvglobal.uk - Oct 31, 2026 (0 programs)
+[info]   [1/4] musor.tv (hu) - en:viasat3.hu - Oct 30, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-[info]   [2/4] musor.tv (en) - en:mtvglobal.uk - Oct 30, 2026 (0 programs)
+[info]   [2/4] musor.tv (hu) - en:viasat3.hu - Oct 31, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-[info]   [3/4] musor.tv (hu) - en:viasat2.hu - Oct 30, 2026 (0 programs)
+[info]   [3/4] musor.tv (hu) - en:viasat6.hu - Oct 30, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-[info]   [4/4] musor.tv (hu) - en:viasat2.hu - Oct 31, 2026 (0 programs)
+[info]   [4/4] musor.tv (hu) - en:viasat6.hu - Oct 31, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
 [info]   saving to "/home/runner/work/qanawati-guide/qanawati-guide/guides/r1-musor.tv.xml"...
 [success]   done in 00h 00m 00s
@@ -398,19 +385,19 @@ r3-tvtv.us: 14x Request failed with status code 404
 [info]   saving to "/home/runner/work/qanawati-guide/qanawati-guide/guides/r1-rotana.net.xml"...
 [success]   done in 00h 00m 06s
 
-== r1 sat.tv (8 channels)
-[info]   [12/16] sat.tv (ar) - ar:skynewsarabia.ae - Oct 31, 2026 (0 programs)
-[info]   [12/16] sat.tv (ar) - ar:skynewsarabia.ae - Oct 31, 2026 (0 programs)
-[info]   [13/16] sat.tv (ar) - ar:spacetoonarabic.ae - Oct 30, 2026 (0 programs)
+== r1 sat.tv (7 channels)
+[info]   [10/14] sat.tv (ar) - ar:skynewsarabia.ae - Oct 31, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-[info]   [14/16] sat.tv (ar) - ar:spacetoonarabic.ae - Oct 31, 2026 (0 programs)
+[info]   [11/14] sat.tv (ar) - ar:spacetoonarabic.ae - Oct 30, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-[info]   [15/16] sat.tv (en) - en:mbcfm.ae - Oct 30, 2026 (0 programs)
+[info]   [12/14] sat.tv (ar) - ar:spacetoonarabic.ae - Oct 31, 2026 (0 programs)
+[info]   [12/14] sat.tv (ar) - ar:spacetoonarabic.ae - Oct 31, 2026 (0 programs)
+[info]   [13/14] sat.tv (en) - en:mbcfm.ae - Oct 30, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-[info]   [16/16] sat.tv (en) - en:mbcfm.ae - Oct 31, 2026 (0 programs)
+[info]   [14/14] sat.tv (en) - en:mbcfm.ae - Oct 31, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
 [info]   saving to "/home/runner/work/qanawati-guide/qanawati-guide/guides/r1-sat.tv.xml"...
-[success]   done in 00h 00m 48s
+[success]   done in 00h 00m 42s
 
 == r1 snrt.ma (2 channels)
 [info] creating queue...
@@ -426,33 +413,33 @@ r3-tvtv.us: 14x Request failed with status code 404
 [info]   saving to "/home/runner/work/qanawati-guide/qanawati-guide/guides/r1-snrt.ma.xml"...
 [success]   done in 00h 00m 00s
 
-== r1 tv.mail.ru (1 channels)
-      [Symbol(kUniqueHeaders)]: null
-    },
-    data: ''
-  },
-  status: 404
-}
-[info]   [1/2] tv.mail.ru (ru) - en:belarus24.by - Oct 30, 2026 (0 programs)
-[info]     ERR: Request failed with status code 404
-[info]   [2/2] tv.mail.ru (ru) - en:belarus24.by - Oct 31, 2026 (0 programs)
-[info]     ERR: Request failed with status code 404
-[info]   saving to "/home/runner/work/qanawati-guide/qanawati-guide/guides/r1-tv.mail.ru.xml"...
-[success]   done in 00h 00m 00s
-
-== r1 tvhebdo.com (1 channels)
+== r1 teleboy.ch (1 channels)
 [info] starting...
 [info] loading channels...
 [info] found 1 channel(s)
 [info] loading api data...
 [info] creating queue...
 [info] run:
-[info]   [1/2] tvhebdo.com (fr) - en:cctv4america.cn - Oct 30, 2026 (0 programs)
-[info]     ERR: timeout of 20000ms exceeded
-[info]   [2/2] tvhebdo.com (fr) - en:cctv4america.cn - Oct 31, 2026 (0 programs)
-[info]     ERR: timeout of 20000ms exceeded
-[info]   saving to "/home/runner/work/qanawati-guide/qanawati-guide/guides/r1-tvhebdo.com.xml"...
-[success]   done in 00h 00m 20s
+[info]   [1/2] teleboy.ch (en) - en:sbntvinternational.us - Oct 30, 2026 (0 programs)
+[info]     ERR: Request failed with status code 403
+[info]   [2/2] teleboy.ch (en) - en:sbntvinternational.us - Oct 31, 2026 (0 programs)
+[info]     ERR: Request failed with status code 403
+[info]   saving to "/home/runner/work/qanawati-guide/qanawati-guide/guides/r1-teleboy.ch.xml"...
+[success]   done in 00h 00m 00s
+
+== r1 turksatkablo.com.tr (1 channels)
+[info] starting...
+[info] loading channels...
+[info] found 1 channel(s)
+[info] loading api data...
+[info] creating queue...
+[info] run:
+[info]   [1/2] turksatkablo.com.tr (tr) - en:ssport2.tr - Oct 30, 2026 (0 programs)
+[info]     ERR: unable to verify the first certificate
+[info]   [2/2] turksatkablo.com.tr (tr) - en:ssport2.tr - Oct 31, 2026 (0 programs)
+[info]     ERR: unable to verify the first certificate
+[info]   saving to "/home/runner/work/qanawati-guide/qanawati-guide/guides/r1-turksatkablo.com.tr.xml"...
+[success]   done in 00h 00m 02s
 
 == r1 tvireland.ie (1 channels)
 [info] starting...
@@ -468,30 +455,30 @@ r3-tvtv.us: 14x Request failed with status code 404
 [info]   saving to "/home/runner/work/qanawati-guide/qanawati-guide/guides/r1-tvireland.ie.xml"...
 [success]   done in 00h 00m 00s
 
-== r1 tvmusor.hu (2 channels)
+== r1 tvprofil.com (1 channels)
+[info] starting...
+[info] loading channels...
+[info] found 1 channel(s)
+[info] loading api data...
 [info] creating queue...
 [info] run:
-[info]   [1/4] tvmusor.hu (hu) - en:viasat6.hu - Oct 30, 2026 (0 programs)
-[info]     ERR: Request failed with status code 404
-[info]   [2/4] tvmusor.hu (hu) - en:viasat6.hu - Oct 31, 2026 (0 programs)
-[info]     ERR: Request failed with status code 404
-[info]   [3/4] tvmusor.hu (hu) - en:viasat3.hu - Oct 30, 2026 (0 programs)
-[info]     ERR: Request failed with status code 404
-[info]   [4/4] tvmusor.hu (hu) - en:viasat3.hu - Oct 31, 2026 (0 programs)
-[info]     ERR: Request failed with status code 404
-[info]   saving to "/home/runner/work/qanawati-guide/qanawati-guide/guides/r1-tvmusor.hu.xml"...
-[success]   done in 00h 00m 01s
+[info]   [1/2] tvprofil.com (hr) - ar:france24.fr - Oct 30, 2026 (0 programs)
+[info]     ERR: Request failed with status code 403
+[info]   [2/2] tvprofil.com (hr) - ar:france24.fr - Oct 31, 2026 (0 programs)
+[info]     ERR: Request failed with status code 403
+[info]   saving to "/home/runner/work/qanawati-guide/qanawati-guide/guides/r1-tvprofil.com.xml"...
+[success]   done in 00h 00m 00s
 
-== r1 tvtv.us (3 channels)
-[info]   [2/6] tvtv.us (en) - ar:babyfirst.us - Oct 31, 2026 (0 programs)
+== r1 tvtv.us (2 channels)
+[info] creating queue...
+[info] run:
+[info]   [1/4] tvtv.us (en) - en:nbclx.us - Oct 30, 2026 (0 programs)
 [info]     ERR: Request failed with status code 404
-[info]   [3/6] tvtv.us (en) - en:nbclx.us - Oct 31, 2026 (0 programs)
+[info]   [2/4] tvtv.us (en) - en:nbclx.us - Oct 31, 2026 (0 programs)
 [info]     ERR: Request failed with status code 404
-[info]   [4/6] tvtv.us (en) - en:thewordnetwork.us - Oct 30, 2026 (0 programs)
+[info]   [3/4] tvtv.us (en) - en:thewordnetwork.us - Oct 31, 2026 (0 programs)
 [info]     ERR: Request failed with status code 404
-[info]   [5/6] tvtv.us (en) - en:thewordnetwork.us - Oct 31, 2026 (0 programs)
-[info]     ERR: Request failed with status code 404
-[info]   [6/6] tvtv.us (en) - ar:babyfirst.us - Oct 30, 2026 (0 programs)
+[info]   [4/4] tvtv.us (en) - en:thewordnetwork.us - Oct 30, 2026 (0 programs)
 [info]     ERR: Request failed with status code 404
 [info]   saving to "/home/runner/work/qanawati-guide/qanawati-guide/guides/r1-tvtv.us.xml"...
 [success]   done in 00h 00m 00s
@@ -505,22 +492,22 @@ r3-tvtv.us: 14x Request failed with status code 404
 [info] loading api data...
 [info] creating queue...
 [info] run:
-[info]   [1/2] vidio.com (id) - ar:makkahtv.sa - Oct 31, 2026 (0 programs)
-[info]   [2/2] vidio.com (id) - ar:makkahtv.sa - Oct 30, 2026 (0 programs)
+[info]   [1/2] vidio.com (id) - ar:makkahtv.sa - Oct 30, 2026 (0 programs)
+[info]   [2/2] vidio.com (id) - ar:makkahtv.sa - Oct 31, 2026 (0 programs)
 [info]   saving to "/home/runner/work/qanawati-guide/qanawati-guide/guides/r1-vidio.com.xml"...
 [success]   done in 00h 00m 01s
 
-== r2 chaines-tv.orange.fr (5 channels)
-[info]   [6/10] chaines-tv.orange.fr (fr) - ar:rotanaclip.sa - Oct 31, 2026 (0 programs)
+== r2 chaines-tv.orange.fr (4 channels)
+[info]   [4/8] chaines-tv.orange.fr (fr) - ar:rotanaclip.sa - Oct 30, 2026 (0 programs)
 [info]     ERR: socket hang up
-[info]   [7/10] chaines-tv.orange.fr (fr) - ar:tv2.dz - Oct 30, 2026 (0 programs)
+[info]   [5/8] chaines-tv.orange.fr (fr) - ar:rotanamusic.sa - Oct 31, 2026 (0 programs)
 [info]     ERR: socket hang up
-[info]   [8/10] chaines-tv.orange.fr (fr) - ar:tv2.dz - Oct 31, 2026 (0 programs)
+[info]   [6/8] chaines-tv.orange.fr (fr) - ar:rotanamusic.sa - Oct 30, 2026 (0 programs)
 [info]     ERR: socket hang up
-[info]   [9/10] chaines-tv.orange.fr (fr) - en:tv2.dz - Oct 31, 2026 (0 programs)
-[info]     ERR: read ECONNRESET
-[info]   [10/10] chaines-tv.orange.fr (fr) - en:tv2.dz - Oct 30, 2026 (0 programs)
-[info]     ERR: read ECONNRESET
+[info]   [7/8] chaines-tv.orange.fr (fr) - ar:tv2.dz - Oct 31, 2026 (0 programs)
+[info]     ERR: socket hang up
+[info]   [8/8] chaines-tv.orange.fr (fr) - ar:tv2.dz - Oct 30, 2026 (0 programs)
+[info]     ERR: socket hang up
 [info]   saving to "/home/runner/work/qanawati-guide/qanawati-guide/guides/r2-chaines-tv.orange.fr.xml"...
 [success]   done in 00h 00m 01s
 
@@ -531,65 +518,51 @@ r3-tvtv.us: 14x Request failed with status code 404
 [info]     ERR: getaddrinfo ENOTFOUND tv.jsrdn.com
 [info]   [12/14] distro.tv (en) - en:watchitscream.us - Oct 31, 2026 (0 programs)
 [info]     ERR: getaddrinfo ENOTFOUND tv.jsrdn.com
-[info]   [13/14] distro.tv (en) - en:xfctv.us - Oct 31, 2026 (0 programs)
+[info]   [13/14] distro.tv (en) - en:xfctv.us - Oct 30, 2026 (0 programs)
 [info]     ERR: getaddrinfo ENOTFOUND tv.jsrdn.com
-[info]   [14/14] distro.tv (en) - en:xfctv.us - Oct 30, 2026 (0 programs)
+[info]   [14/14] distro.tv (en) - en:xfctv.us - Oct 31, 2026 (0 programs)
 [info]     ERR: getaddrinfo ENOTFOUND tv.jsrdn.com
 [info]   saving to "/home/runner/work/qanawati-guide/qanawati-guide/guides/r2-distro.tv.xml"...
 [success]   done in 00h 00m 00s
 
-== r2 mncvision.id (1 channels)
+== r2 sat.tv (1 channels)
 [info] starting...
 [info] loading channels...
 [info] found 1 channel(s)
 [info] loading api data...
 [info] creating queue...
 [info] run:
-[info]   [1/2] mncvision.id (id) - ar:alquranalkareemtv.sa - Oct 31, 2026 (0 programs)
-[info]     ERR: timeout of 20000ms exceeded
-[info]   [2/2] mncvision.id (id) - ar:alquranalkareemtv.sa - Oct 30, 2026 (0 programs)
-[info]     ERR: timeout of 20000ms exceeded
-[info]   saving to "/home/runner/work/qanawati-guide/qanawati-guide/guides/r2-mncvision.id.xml"...
-[success]   done in 00h 00m 40s
+[info]   [1/2] sat.tv (ar) - en:tv2.dz - Oct 30, 2026 (0 programs)
+[info]     ERR: Request failed with status code 403
+[info]   [2/2] sat.tv (ar) - en:tv2.dz - Oct 31, 2026 (0 programs)
+[info]     ERR: Request failed with status code 403
+[info]   saving to "/home/runner/work/qanawati-guide/qanawati-guide/guides/r2-sat.tv.xml"...
+[success]   done in 00h 00m 06s
 
-== r2 tvmusor.hu (1 channels)
-[info] starting...
-[info] loading channels...
-[info] found 1 channel(s)
-[info] loading api data...
-[info] creating queue...
-[info] run:
-[info]   [1/2] tvmusor.hu (hu) - en:viasat2.hu - Oct 31, 2026 (0 programs)
+== r2 tvmusor.hu (3 channels)
+[info]   [2/6] tvmusor.hu (hu) - en:viasat2.hu - Oct 30, 2026 (0 programs)
 [info]     ERR: Request failed with status code 404
-[info]   [2/2] tvmusor.hu (hu) - en:viasat2.hu - Oct 30, 2026 (0 programs)
+[info]   [3/6] tvmusor.hu (hu) - en:viasat3.hu - Oct 31, 2026 (0 programs)
+[info]     ERR: Request failed with status code 404
+[info]   [4/6] tvmusor.hu (hu) - en:viasat2.hu - Oct 31, 2026 (0 programs)
+[info]     ERR: Request failed with status code 404
+[info]   [5/6] tvmusor.hu (hu) - en:viasat6.hu - Oct 31, 2026 (0 programs)
+[info]     ERR: Request failed with status code 404
+[info]   [6/6] tvmusor.hu (hu) - en:viasat6.hu - Oct 30, 2026 (0 programs)
 [info]     ERR: Request failed with status code 404
 [info]   saving to "/home/runner/work/qanawati-guide/qanawati-guide/guides/r2-tvmusor.hu.xml"...
 [success]   done in 00h 00m 01s
 
-== r2 tvprofil.com (2 channels)
-[info] creating queue...
-[info] run:
-[info]   [1/4] tvprofil.com (hr) - en:viasat3.hu - Oct 31, 2026 (0 programs)
-[info]     ERR: Request failed with status code 403
-[info]   [2/4] tvprofil.com (hr) - en:viasat3.hu - Oct 30, 2026 (0 programs)
-[info]     ERR: Request failed with status code 403
-[info]   [3/4] tvprofil.com (hr) - en:viasat6.hu - Oct 30, 2026 (0 programs)
-[info]     ERR: Request failed with status code 403
-[info]   [4/4] tvprofil.com (hr) - en:viasat6.hu - Oct 31, 2026 (0 programs)
-[info]     ERR: Request failed with status code 403
-[info]   saving to "/home/runner/work/qanawati-guide/qanawati-guide/guides/r2-tvprofil.com.xml"...
-[success]   done in 00h 00m 00s
-
 == r2 tvtv.us (6 channels)
-[info]   [8/12] tvtv.us (en) - en:stingraynothinbut90s.ca - Oct 31, 2026 (0 programs)
+[info]   [8/12] tvtv.us (en) - en:stingrayflashback70s.ca - Oct 30, 2026 (0 programs)
 [info]     ERR: Request failed with status code 404
-[info]   [9/12] tvtv.us (en) - en:stingraypopadult.ca - Oct 31, 2026 (0 programs)
+[info]   [9/12] tvtv.us (en) - en:stingraysmoothjazz.ca - Oct 31, 2026 (0 programs)
 [info]     ERR: Request failed with status code 404
 [info]   [10/12] tvtv.us (en) - en:stingraysmoothjazz.ca - Oct 30, 2026 (0 programs)
 [info]     ERR: Request failed with status code 404
 [info]   [11/12] tvtv.us (en) - en:stingraypopadult.ca - Oct 30, 2026 (0 programs)
 [info]     ERR: Request failed with status code 404
-[info]   [12/12] tvtv.us (en) - en:stingraysmoothjazz.ca - Oct 31, 2026 (0 programs)
+[info]   [12/12] tvtv.us (en) - en:stingraypopadult.ca - Oct 31, 2026 (0 programs)
 [info]     ERR: Request failed with status code 404
 [info]   saving to "/home/runner/work/qanawati-guide/qanawati-guide/guides/r2-tvtv.us.xml"...
 [success]   done in 00h 00m 00s
@@ -601,12 +574,26 @@ r3-tvtv.us: 14x Request failed with status code 404
 [info] loading api data...
 [info] creating queue...
 [info] run:
-[info]   [1/2] vidio.com (id) - en:africanewsenglish.fr - Oct 31, 2026 (0 programs)
+[info]   [1/2] vidio.com (id) - en:africanewsenglish.fr - Oct 30, 2026 (0 programs)
 [info]     ERR: Request failed with status code 404
-[info]   [2/2] vidio.com (id) - en:africanewsenglish.fr - Oct 30, 2026 (0 programs)
+[info]   [2/2] vidio.com (id) - en:africanewsenglish.fr - Oct 31, 2026 (0 programs)
 [info]     ERR: Request failed with status code 404
 [info]   saving to "/home/runner/work/qanawati-guide/qanawati-guide/guides/r2-vidio.com.xml"...
 [success]   done in 00h 00m 01s
+
+== r2 xumo.tv (1 channels)
+> node -r @swc-node/register scripts/commands/epg/grab.ts --channels=/home/runner/work/qanawati-guide/qanawati-guide/lists2/xumo.tv.channels.xml --output=/home/runner/work/qanawati-guide/qanawati-guide/guides/r2-xumo.tv.xml --days=2 --maxCo
+
+[info] starting...
+[info] loading channels...
+[info] found 1 channel(s)
+[info] loading api data...
+[info] creating queue...
+[info] run:
+[info]   [1/2] xumo.tv (en) - en:tennischannel.us - Oct 31, 2026 (0 programs)
+[info]   [2/2] xumo.tv (en) - en:tennischannel.us - Oct 30, 2026 (0 programs)
+[info]   saving to "/home/runner/work/qanawati-guide/qanawati-guide/guides/r2-xumo.tv.xml"...
+[success]   done in 00h 00m 00s
 
 == r3 chaines-tv.orange.fr (1 channels)
 [info] starting...
@@ -636,30 +623,30 @@ r3-tvtv.us: 14x Request failed with status code 404
 [info]   saving to "/home/runner/work/qanawati-guide/qanawati-guide/guides/r3-distro.tv.xml"...
 [success]   done in 00h 00m 00s
 
-== r3 teleboy.ch (2 channels)
+== r3 teleboy.ch (1 channels)
+[info] starting...
+[info] loading channels...
+[info] found 1 channel(s)
+[info] loading api data...
 [info] creating queue...
 [info] run:
-[info]   [1/4] teleboy.ch (ar) - ar:bbcarabic.uk - Oct 30, 2026 (0 programs)
+[info]   [1/2] teleboy.ch (de) - en:terramaterwild.de - Oct 30, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-[info]   [2/4] teleboy.ch (ar) - ar:bbcarabic.uk - Oct 31, 2026 (0 programs)
-[info]     ERR: Request failed with status code 403
-[info]   [3/4] teleboy.ch (de) - en:terramaterwild.de - Oct 30, 2026 (0 programs)
-[info]     ERR: Request failed with status code 403
-[info]   [4/4] teleboy.ch (de) - en:terramaterwild.de - Oct 31, 2026 (0 programs)
+[info]   [2/2] teleboy.ch (de) - en:terramaterwild.de - Oct 31, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
 [info]   saving to "/home/runner/work/qanawati-guide/qanawati-guide/guides/r3-teleboy.ch.xml"...
 [success]   done in 00h 00m 00s
 
 == r3 tvtv.us (7 channels)
-[info]   [10/14] tvtv.us (en) - en:weathernation.us - Oct 30, 2026 (0 programs)
+[info]   [10/14] tvtv.us (en) - en:stingrayhotcountry.ca - Oct 30, 2026 (0 programs)
 [info]     ERR: Request failed with status code 404
-[info]   [11/14] tvtv.us (en) - en:stingraysoulstorm.ca - Oct 31, 2026 (0 programs)
+[info]   [11/14] tvtv.us (en) - en:stingraysoulstorm.ca - Oct 30, 2026 (0 programs)
 [info]     ERR: Request failed with status code 404
-[info]   [12/14] tvtv.us (en) - en:johnnycarsontv.us - Oct 30, 2026 (0 programs)
+[info]   [12/14] tvtv.us (en) - en:stingraysoulstorm.ca - Oct 31, 2026 (0 programs)
 [info]     ERR: Request failed with status code 404
-[info]   [13/14] tvtv.us (en) - en:stingrayhotcountry.ca - Oct 31, 2026 (0 programs)
+[info]   [13/14] tvtv.us (en) - en:weathernation.us - Oct 31, 2026 (0 programs)
 [info]     ERR: Request failed with status code 404
-[info]   [14/14] tvtv.us (en) - en:weathernation.us - Oct 31, 2026 (0 programs)
+[info]   [14/14] tvtv.us (en) - en:weathernation.us - Oct 30, 2026 (0 programs)
 [info]     ERR: Request failed with status code 404
 [info]   saving to "/home/runner/work/qanawati-guide/qanawati-guide/guides/r3-tvtv.us.xml"...
 [success]   done in 00h 00m 00s
