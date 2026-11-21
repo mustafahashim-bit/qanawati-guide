@@ -1,178 +1,183 @@
-updated 2026-11-21 02:57 UTC
-channels with listings: 1099 (arabic 92 of 239, english 1007 of 1239)
-programmes: 47115
+updated 2026-11-21 14:51 UTC
+channels with listings: 1091 (arabic 92 of 239, english 999 of 1239)
+programmes: 43921
 
-round 0 channels: 1478 sites: 79
-  r0 airtelxstream.in channels=3 programmes=196 seconds=3
-  r0 aljazeera.com channels=2 programmes=38 seconds=2
-  r0 arirang.com channels=1 programmes=102 seconds=18
-  r0 ayn.om channels=4 programmes=289 seconds=6
-  r0 bein.com channels=5 programmes=355 seconds=3
-  r0 chaines-tv.orange.fr channels=1 programmes=0 seconds=3
+round 0 channels: 1478 sites: 81
+  r0 airtelxstream.in channels=46 programmes=3069 seconds=7
+  r0 aljazeera.com channels=2 programmes=76 seconds=2
+  r0 arirang.com channels=1 programmes=102 seconds=15
+  r0 ayn.om channels=4 programmes=289 seconds=7
+  r0 bein.com channels=3 programmes=161 seconds=3
+  r0 chaines-tv.orange.fr channels=2 programmes=0 seconds=3
   r0 dens.tv channels=1 programmes=0 seconds=3
-  r0 dishtv.in channels=2 programmes=58 seconds=17
+  r0 directv.com.uy channels=1 programmes=35 seconds=3
+  r0 dishtv.in channels=6 programmes=337 seconds=4
   r0 distro.tv channels=8 programmes=0 seconds=2
-  r0 dstv.com channels=8 programmes=275 seconds=29
-  r0 elcinema.com channels=42 programmes=1449 seconds=312
-  r0 epg.iptvx.one channels=14 programmes=1316 seconds=29
-  r0 epgshare01.online channels=129 programmes=813 seconds=54
-  r0 foxtel.com.au channels=1 programmes=0 seconds=2
-  r0 freetv.tv channels=1 programmes=70 seconds=3
-  r0 freeview.co.uk channels=30 programmes=1653 seconds=34
+  r0 dstv.com channels=8 programmes=177 seconds=28
+  r0 elcinema.com channels=44 programmes=1100 seconds=324
+  r0 epg.iptvx.one channels=15 programmes=1541 seconds=28
+  r0 epgshare01.online channels=129 programmes=772 seconds=42
+  r0 foxtel.com.au channels=1 programmes=0 seconds=3
+  r0 freetv.tv channels=1 programmes=0 seconds=2
+  r0 freeview.co.uk channels=30 programmes=1668 seconds=57
   r0 galamtv.kz channels=1 programmes=0 seconds=3
-  r0 gatotv.com channels=7 programmes=266 seconds=2
+  r0 gatotv.com channels=3 programmes=131 seconds=2
   r0 gigatv.3bbtv.co.th channels=16 programmes=1189 seconds=4
-  r0 i.mjh.nz channels=567 programmes=19108 seconds=49
-  r0 m.tv.sms.cz channels=6 programmes=0 seconds=3
-  r0 magticom.ge channels=2 programmes=0 seconds=3
-  r0 maxstream.tv channels=2 programmes=45 seconds=3
-  r0 melita.com channels=2 programmes=317 seconds=2
-  r0 mewatch.sg channels=1 programmes=30 seconds=3
-  r0 mi.tv channels=3 programmes=150 seconds=2
-  r0 mncvision.id channels=1 programmes=100 seconds=86
-  r0 musor.tv channels=6 programmes=0 seconds=3
+  r0 i.mjh.nz channels=567 programmes=17034 seconds=40
+  r0 m.tv.sms.cz channels=7 programmes=0 seconds=4
+  r0 magticom.ge channels=2 programmes=0 seconds=4
+  r0 maxstream.tv channels=2 programmes=45 seconds=2
+  r0 melita.com channels=2 programmes=319 seconds=2
+  r0 mewatch.sg channels=4 programmes=297 seconds=3
+  r0 mi.tv channels=6 programmes=236 seconds=2
+  r0 mncvision.id channels=1 programmes=0 seconds=42
+  r0 movistarplus.es channels=1 programmes=40 seconds=8
+  r0 musor.tv channels=3 programmes=0 seconds=4
   r0 mytelly.co.uk channels=1 programmes=73 seconds=2
   r0 mytvsuper.com channels=3 programmes=164 seconds=2
-  r0 neo.io channels=1 programmes=54 seconds=3
-  r0 nowplayer.now.com channels=1 programmes=39 seconds=5
-  r0 nuevosiglo.com.uy channels=3 programmes=305 seconds=26
-  r0 nzxmltv.com channels=2 programmes=57 seconds=7
-  r0 ontvtonight.com channels=1 programmes=32 seconds=2
-  r0 osn.com channels=8 programmes=116 seconds=7
+  r0 neo.io channels=7 programmes=469 seconds=4
+  r0 nowplayer.now.com channels=10 programmes=448 seconds=13
+  r0 nzxmltv.com channels=2 programmes=42 seconds=6
+  r0 ontvtonight.com channels=1 programmes=32 seconds=3
+  r0 osn.com channels=9 programmes=98 seconds=37
+  r0 pickx.be channels=1 programmes=0 seconds=2
   r0 plex.tv channels=2 programmes=72 seconds=2
-  r0 programetv.ro channels=9 programmes=724 seconds=6
-  r0 programme-tv.net channels=1 programmes=53 seconds=3
-  r0 programtv.onet.pl channels=19 programmes=1704 seconds=100
-  r0 rotana.net channels=1 programmes=0 seconds=8
+  r0 programacion.tcc.com.uy channels=1 programmes=30 seconds=23
+  r0 programetv.ro channels=8 programmes=691 seconds=5
+  r0 programtv.onet.pl channels=14 programmes=1211 seconds=75
+  r0 rotana.net channels=1 programmes=0 seconds=9
   r0 rtmklik.rtm.gov.my channels=4 programmes=324 seconds=2
-  r0 sat.tv channels=103 programmes=0 seconds=624
-  r0 shahid.mbc.net channels=60 programmes=3327 seconds=4
-  r0 siba.com.co channels=1 programmes=57 seconds=2
-  r0 singtel.com channels=14 programmes=1220 seconds=3
+  r0 sat.tv channels=105 programmes=0 seconds=635
+  r0 shahid.mbc.net channels=58 programmes=3319 seconds=3
+  r0 siba.com.co channels=1 programmes=56 seconds=2
+  r0 singtel.com channels=1 programmes=81 seconds=2
   r0 sky.co.nz channels=1 programmes=65 seconds=2
-  r0 sky.com channels=69 programmes=3966 seconds=12
-  r0 skyperfectv.co.jp channels=3 programmes=1261 seconds=7
-  r0 starhubtvplus.com channels=5 programmes=224 seconds=3
+  r0 sky.com channels=69 programmes=3993 seconds=12
+  r0 starhubtvplus.com channels=5 programmes=231 seconds=3
   r0 streamingtvguides.com channels=1 programmes=0 seconds=2
   r0 taiwanplus.com channels=1 programmes=0 seconds=2
-  r0 tapdmv.com channels=2 programmes=0 seconds=4
-  r0 tataplay.com channels=47 programmes=943 seconds=12
-  r0 teliatv.ee channels=2 programmes=129 seconds=3
+  r0 tapdmv.com channels=3 programmes=0 seconds=4
+  r0 tataplay.com channels=1 programmes=48 seconds=3
+  r0 teliatv.ee channels=2 programmes=131 seconds=8
   r0 tivie.id channels=1 programmes=63 seconds=4
   r0 toonamiaftermath.com channels=1 programmes=128 seconds=2
-  r0 tv.blue.ch channels=18 programmes=2234 seconds=5
-  r0 tv.dir.bg channels=3 programmes=476 seconds=30
-  r0 tv.magenta.at channels=1 programmes=0 seconds=2
-  r0 tv.mail.ru channels=1 programmes=0 seconds=3
-  r0 tv.post.lu channels=2 programmes=126 seconds=3
-  r0 tv.sfr.fr channels=8 programmes=172 seconds=5
-  r0 tv24.se channels=1 programmes=109 seconds=14
-  r0 tv2go.t-2.net channels=1 programmes=38 seconds=3
-  r0 tvgids.nl channels=1 programmes=157 seconds=3
-  r0 tvguide.com channels=69 programmes=4481 seconds=52
-  r0 tvguide.myjcom.jp channels=1 programmes=105 seconds=3
-  r0 tvhebdo.com channels=5 programmes=252 seconds=3
-  r0 tvpassport.com channels=33 programmes=1931 seconds=6
-  r0 tvplus.com.tr channels=5 programmes=277 seconds=4
+  r0 turksatkablo.com.tr channels=5 programmes=0 seconds=6
+  r0 tv.blue.ch channels=18 programmes=2228 seconds=5
+  r0 tv.dir.bg channels=3 programmes=0 seconds=63
+  r0 tv.magenta.at channels=1 programmes=0 seconds=3
+  r0 tv.mail.ru channels=1 programmes=0 seconds=2
+  r0 tv.movistar.com.pe channels=1 programmes=239 seconds=4
+  r0 tv.post.lu channels=1 programmes=60 seconds=3
+  r0 tv.sfr.fr channels=5 programmes=101 seconds=5
+  r0 tv24.se channels=1 programmes=109 seconds=24
+  r0 tv2go.t-2.net channels=2 programmes=104 seconds=3
+  r0 tvcesoir.fr channels=1 programmes=0 seconds=3
+  r0 tvguide.com channels=67 programmes=4397 seconds=82
+  r0 tvguide.myjcom.jp channels=4 programmes=301 seconds=3
+  r0 tvhebdo.com channels=5 programmes=248 seconds=2
+  r0 tvmusor.hu channels=3 programmes=0 seconds=3
+  r0 tvpassport.com channels=35 programmes=1987 seconds=9
   r0 tvtv.us channels=53 programmes=0 seconds=2
   r0 vantagetv.ee channels=2 programmes=46 seconds=5
   r0 vidio.com channels=1 programmes=39 seconds=3
-  r0 watch.whaletvplus.com channels=14 programmes=212 seconds=4
-  r0 watchyour.tv channels=20 programmes=167 seconds=3
-  r0 wavve.com channels=2 programmes=0 seconds=2
+  r0 watch.whaletvplus.com channels=14 programmes=222 seconds=5
+  r0 watchyour.tv channels=20 programmes=712 seconds=2
+  r0 wavve.com channels=1 programmes=0 seconds=2
   r0 xumo.tv channels=3 programmes=94 seconds=2
-  r0 ziggogo.tv channels=1 programmes=64 seconds=5
-round 1 channels: 364 sites: 53
-  r1 airtelxstream.in channels=1 programmes=98 seconds=2
-  r1 bein.com channels=2 programmes=85 seconds=2
-  r1 chada.ma channels=1 programmes=0 seconds=4
+round 1 channels: 352 sites: 57
+  r1 bein.com channels=3 programmes=209 seconds=3
+  r1 chada.ma channels=1 programmes=0 seconds=3
   r1 chaines-tv.orange.fr channels=3 programmes=0 seconds=3
-  r1 cubmu.com channels=1 programmes=0 seconds=2
-  r1 dens.tv channels=1 programmes=0 seconds=3
-  r1 dishtv.in channels=29 programmes=1609 seconds=9
+  r1 cubmu.com channels=1 programmes=206 seconds=4
+  r1 dens.tv channels=1 programmes=0 seconds=4
+  r1 directv.com.uy channels=1 programmes=90 seconds=2
   r1 distro.tv channels=5 programmes=0 seconds=2
-  r1 elcinema.com channels=3 programmes=166 seconds=24
-  r1 epg.iptvx.one channels=1 programmes=126 seconds=8
-  r1 epgshare01.online channels=49 programmes=348 seconds=26
-  r1 foxtel.com.au channels=2 programmes=72 seconds=46
-  r1 freeview.co.uk channels=3 programmes=298 seconds=4
-  r1 gatotv.com channels=2 programmes=155 seconds=2
-  r1 horizon.tv channels=1 programmes=322 seconds=56
+  r1 dsmart.com.tr channels=1 programmes=0 seconds=3
+  r1 elcinema.com channels=3 programmes=118 seconds=24
+  r1 epg.iptvx.one channels=1 programmes=126 seconds=6
+  r1 epgshare01.online channels=49 programmes=249 seconds=17
+  r1 foxtel.com.au channels=2 programmes=92 seconds=38
+  r1 freeview.co.uk channels=6 programmes=751 seconds=65
+  r1 gatotv.com channels=1 programmes=91 seconds=2
+  r1 horizon.tv channels=3 programmes=537 seconds=63
   r1 i24news.tv channels=1 programmes=48 seconds=1
   r1 ionplustv.com channels=1 programmes=0 seconds=2
-  r1 m.tv.sms.cz channels=1 programmes=0 seconds=3
-  r1 melita.com channels=1 programmes=3 seconds=2
-  r1 mi.tv channels=1 programmes=89 seconds=2
-  r1 mujtvprogram.cz channels=3 programmes=261 seconds=3
-  r1 musor.tv channels=1 programmes=0 seconds=2
+  r1 melita.com channels=1 programmes=1 seconds=2
+  r1 mi.tv channels=1 programmes=54 seconds=2
+  r1 mujtvprogram.cz channels=1 programmes=66 seconds=3
+  r1 musor.tv channels=4 programmes=0 seconds=2
   r1 mytelly.co.uk channels=1 programmes=0 seconds=3
-  r1 ontvtonight.com channels=3 programmes=150 seconds=1
-  r1 osn.com channels=4 programmes=22 seconds=37
-  r1 plex.tv channels=50 programmes=1801 seconds=4
-  r1 pluto.tv channels=66 programmes=2770 seconds=6
-  r1 programetv.ro channels=1 programmes=92 seconds=3
-  r1 programtv.onet.pl channels=1 programmes=38 seconds=11
-  r1 rotana.net channels=1 programmes=0 seconds=9
-  r1 sat.tv channels=17 programmes=0 seconds=104
-  r1 singtel.com channels=3 programmes=182 seconds=2
-  r1 sky.co.nz channels=1 programmes=4 seconds=2
-  r1 sky.com channels=9 programmes=557 seconds=4
+  r1 mytvsuper.com channels=1 programmes=92 seconds=1
+  r1 neo.io channels=2 programmes=189 seconds=3
+  r1 nostv.pt channels=1 programmes=64 seconds=3
+  r1 nowplayer.now.com channels=2 programmes=56 seconds=6
+  r1 nzxmltv.com channels=1 programmes=4 seconds=13
+  r1 ontvtonight.com channels=3 programmes=150 seconds=2
+  r1 osn.com channels=3 programmes=84 seconds=7
+  r1 plex.tv channels=55 programmes=1913 seconds=3
+  r1 pluto.tv channels=64 programmes=3626 seconds=6
+  r1 programme-tv.net channels=1 programmes=53 seconds=3
+  r1 rotana.net channels=1 programmes=0 seconds=8
+  r1 sat.tv channels=15 programmes=0 seconds=92
+  r1 shahid.mbc.net channels=2 programmes=4 seconds=2
+  r1 singtel.com channels=1 programmes=55 seconds=2
+  r1 sky.com channels=8 programmes=484 seconds=4
   r1 snrt.ma channels=2 programmes=0 seconds=2
-  r1 streamingtvguides.com channels=2 programmes=0 seconds=2
-  r1 tataplay.com channels=2 programmes=144 seconds=4
-  r1 turksatkablo.com.tr channels=1 programmes=0 seconds=4
-  r1 tv.blue.ch channels=6 programmes=193 seconds=3
-  r1 tv.mail.ru channels=1 programmes=0 seconds=3
-  r1 tv.post.lu channels=2 programmes=147 seconds=2
-  r1 tv.sfr.fr channels=7 programmes=248 seconds=5
-  r1 tvguide.com channels=1 programmes=60 seconds=4
-  r1 tvhebdo.com channels=1 programmes=78 seconds=3
+  r1 starhubtvplus.com channels=1 programmes=120 seconds=3
+  r1 streamingtvguides.com channels=1 programmes=0 seconds=2
+  r1 tataplay.com channels=2 programmes=144 seconds=3
+  r1 teleboy.ch channels=1 programmes=0 seconds=1
+  r1 tv.blue.ch channels=6 programmes=190 seconds=4
+  r1 tv.cctv.com channels=1 programmes=87 seconds=4
+  r1 tv.mail.ru channels=1 programmes=0 seconds=2
+  r1 tv.sfr.fr channels=8 programmes=275 seconds=4
+  r1 tvgids.nl channels=1 programmes=154 seconds=3
+  r1 tvguide.com channels=1 programmes=60 seconds=6
   r1 tvireland.ie channels=1 programmes=0 seconds=2
-  r1 tvmusor.hu channels=2 programmes=0 seconds=3
-  r1 tvpassport.com channels=2 programmes=197 seconds=2
-  r1 tvplus.com.tr channels=1 programmes=252 seconds=4
-  r1 tvtv.us channels=2 programmes=0 seconds=1
-  r1 vidio.com channels=1 programmes=0 seconds=2
-  r1 watch.whaletvplus.com channels=1 programmes=28 seconds=4
-  r1 xumo.tv channels=57 programmes=2085 seconds=2
-  r1 zee5.com channels=2 programmes=237 seconds=3
-round 2 channels: 116 sites: 24
-  r2 airtelxstream.in channels=2 programmes=195 seconds=3
-  r2 chaines-tv.orange.fr channels=4 programmes=0 seconds=3
-  r2 dens.tv channels=1 programmes=0 seconds=3
-  r2 digiturk.com.tr channels=1 programmes=0 seconds=2
+  r1 tvpassport.com channels=3 programmes=305 seconds=3
+  r1 tvplus.com.tr channels=5 programmes=432 seconds=4
+  r1 tvprofil.com channels=3 programmes=0 seconds=2
+  r1 tvtv.us channels=4 programmes=0 seconds=1
+  r1 vidio.com channels=1 programmes=0 seconds=3
+  r1 watch.whaletvplus.com channels=1 programmes=28 seconds=3
+  r1 xumo.tv channels=56 programmes=2004 seconds=3
+  r1 zee5.com channels=2 programmes=237 seconds=2
+round 2 channels: 117 sites: 23
+  r2 chaines-tv.orange.fr channels=4 programmes=0 seconds=4
+  r2 dens.tv channels=1 programmes=0 seconds=2
   r2 distro.tv channels=8 programmes=0 seconds=2
-  r2 dstv.com channels=1 programmes=4 seconds=5
-  r2 epgshare01.online channels=17 programmes=214 seconds=15
+  r2 epgshare01.online channels=20 programmes=48 seconds=15
   r2 gatotv.com channels=1 programmes=28 seconds=2
-  r2 melita.com channels=1 programmes=89 seconds=2
-  r2 plex.tv channels=31 programmes=1811 seconds=4
-  r2 pluto.tv channels=17 programmes=581 seconds=3
-  r2 sat.tv channels=3 programmes=0 seconds=20
-  r2 sky.com channels=4 programmes=18 seconds=4
-  r2 streamingtvguides.com channels=1 programmes=0 seconds=1
-  r2 tv.blue.ch channels=2 programmes=115 seconds=3
-  r2 tv.sfr.fr channels=2 programmes=73 seconds=4
-  r2 tvguide.com channels=1 programmes=57 seconds=5
-  r2 tvmusor.hu channels=1 programmes=0 seconds=3
-  r2 tvpassport.com channels=2 programmes=74 seconds=3
+  r2 m.tv.sms.cz channels=1 programmes=0 seconds=2
+  r2 magticom.ge channels=1 programmes=0 seconds=3
+  r2 melita.com channels=1 programmes=86 seconds=2
+  r2 plex.tv channels=29 programmes=1751 seconds=3
+  r2 pluto.tv channels=19 programmes=930 seconds=3
+  r2 programtv.onet.pl channels=1 programmes=38 seconds=14
+  r2 sat.tv channels=1 programmes=0 seconds=8
+  r2 sky.co.nz channels=1 programmes=4 seconds=2
+  r2 sky.com channels=4 programmes=226 seconds=3
+  r2 streamingtvguides.com channels=1 programmes=0 seconds=2
+  r2 tv.blue.ch channels=2 programmes=120 seconds=3
+  r2 tv.sfr.fr channels=4 programmes=117 seconds=5
+  r2 tvpassport.com channels=2 programmes=72 seconds=3
+  r2 tvplus.com.tr channels=1 programmes=234 seconds=3
   r2 tvprofil.com channels=2 programmes=0 seconds=2
-  r2 tvtv.us channels=6 programmes=0 seconds=1
+  r2 tvtv.us channels=6 programmes=0 seconds=2
   r2 vidio.com channels=1 programmes=0 seconds=3
-  r2 watch.whaletvplus.com channels=5 programmes=233 seconds=4
-  r2 xumo.tv channels=2 programmes=66 seconds=1
-round 3 channels: 63 sites: 14
-  r3 chaines-tv.orange.fr channels=1 programmes=0 seconds=2
+  r2 watch.whaletvplus.com channels=6 programmes=180 seconds=4
+round 3 channels: 60 sites: 14
+  r3 chaines-tv.orange.fr channels=1 programmes=0 seconds=3
+  r3 cubmu.com channels=1 programmes=48 seconds=5
   r3 distro.tv channels=2 programmes=0 seconds=2
-  r3 epgshare01.online channels=26 programmes=377 seconds=14
+  r3 dstv.com channels=1 programmes=8 seconds=5
+  r3 epgshare01.online channels=24 programmes=671 seconds=10
   r3 gatotv.com channels=2 programmes=154 seconds=2
-  r3 magticom.ge channels=1 programmes=0 seconds=3
-  r3 mncvision.id channels=1 programmes=0 seconds=42
-  r3 plex.tv channels=13 programmes=800 seconds=3
-  r3 sat.tv channels=2 programmes=0 seconds=13
-  r3 teleboy.ch channels=2 programmes=135 seconds=2
-  r3 tv.blue.ch channels=1 programmes=65 seconds=3
-  r3 tv.sfr.fr channels=2 programmes=28 seconds=4
-  r3 tvguide.com channels=1 programmes=27 seconds=5
-  r3 tvtv.us channels=7 programmes=0 seconds=1
-  r3 watch.whaletvplus.com channels=2 programmes=56 seconds=5
+  r3 osn.com channels=1 programmes=100 seconds=7
+  r3 plex.tv channels=13 programmes=720 seconds=2
+  r3 sat.tv channels=1 programmes=0 seconds=8
+  r3 teleboy.ch channels=2 programmes=0 seconds=2
+  r3 tv.blue.ch channels=1 programmes=63 seconds=3
+  r3 tv.sfr.fr channels=2 programmes=28 seconds=3
+  r3 tvtv.us channels=7 programmes=0 seconds=2
+  r3 watch.whaletvplus.com channels=2 programmes=56 seconds=3
